@@ -1,0 +1,13 @@
+D:\Code\GithubDesktop\System_prog\Делегаты\bin\Debug\netcoreapp3.1\Делегаты.exe
+D:\Code\GithubDesktop\System_prog\Делегаты\bin\Debug\netcoreapp3.1\Делегаты.deps.json
+D:\Code\GithubDesktop\System_prog\Делегаты\bin\Debug\netcoreapp3.1\Делегаты.runtimeconfig.json
+D:\Code\GithubDesktop\System_prog\Делегаты\bin\Debug\netcoreapp3.1\Делегаты.runtimeconfig.dev.json
+D:\Code\GithubDesktop\System_prog\Делегаты\bin\Debug\netcoreapp3.1\Делегаты.dll
+D:\Code\GithubDesktop\System_prog\Делегаты\bin\Debug\netcoreapp3.1\Делегаты.pdb
+D:\Code\GithubDesktop\System_prog\Делегаты\obj\Debug\netcoreapp3.1\Делегаты.csprojAssemblyReference.cache
+D:\Code\GithubDesktop\System_prog\Делегаты\obj\Debug\netcoreapp3.1\Делегаты.csproj.CoreCompileInputs.cache
+D:\Code\GithubDesktop\System_prog\Делегаты\obj\Debug\netcoreapp3.1\Делегаты.AssemblyInfoInputs.cache
+D:\Code\GithubDesktop\System_prog\Делегаты\obj\Debug\netcoreapp3.1\Делегаты.AssemblyInfo.cs
+D:\Code\GithubDesktop\System_prog\Делегаты\obj\Debug\netcoreapp3.1\Делегаты.dll
+D:\Code\GithubDesktop\System_prog\Делегаты\obj\Debug\netcoreapp3.1\Делегаты.pdb
+D:\Code\GithubDesktop\System_prog\Делегаты\obj\Debug\netcoreapp3.1\Делегаты.genruntimeconfig.cache
