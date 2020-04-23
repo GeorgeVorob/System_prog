@@ -1,0 +1,13 @@
+D:\Code\GithubDesktop\System_prog\События\bin\Debug\netcoreapp3.1\События.exe
+D:\Code\GithubDesktop\System_prog\События\bin\Debug\netcoreapp3.1\События.deps.json
+D:\Code\GithubDesktop\System_prog\События\bin\Debug\netcoreapp3.1\События.runtimeconfig.json
+D:\Code\GithubDesktop\System_prog\События\bin\Debug\netcoreapp3.1\События.runtimeconfig.dev.json
+D:\Code\GithubDesktop\System_prog\События\bin\Debug\netcoreapp3.1\События.dll
+D:\Code\GithubDesktop\System_prog\События\bin\Debug\netcoreapp3.1\События.pdb
+D:\Code\GithubDesktop\System_prog\События\obj\Debug\netcoreapp3.1\События.csprojAssemblyReference.cache
+D:\Code\GithubDesktop\System_prog\События\obj\Debug\netcoreapp3.1\События.csproj.CoreCompileInputs.cache
+D:\Code\GithubDesktop\System_prog\События\obj\Debug\netcoreapp3.1\События.AssemblyInfoInputs.cache
+D:\Code\GithubDesktop\System_prog\События\obj\Debug\netcoreapp3.1\События.AssemblyInfo.cs
+D:\Code\GithubDesktop\System_prog\События\obj\Debug\netcoreapp3.1\События.dll
+D:\Code\GithubDesktop\System_prog\События\obj\Debug\netcoreapp3.1\События.pdb
+D:\Code\GithubDesktop\System_prog\События\obj\Debug\netcoreapp3.1\События.genruntimeconfig.cache
