@@ -1,0 +1,7 @@
+D:\Code\GithubDesktop\System_prog\Рефлексия\bin\Debug\Рефлексия.exe.config
+D:\Code\GithubDesktop\System_prog\Рефлексия\bin\Debug\Рефлексия.exe
+D:\Code\GithubDesktop\System_prog\Рефлексия\bin\Debug\Рефлексия.pdb
+D:\Code\GithubDesktop\System_prog\Рефлексия\obj\Debug\Рефлексия.csprojAssemblyReference.cache
+D:\Code\GithubDesktop\System_prog\Рефлексия\obj\Debug\Рефлексия.csproj.CoreCompileInputs.cache
+D:\Code\GithubDesktop\System_prog\Рефлексия\obj\Debug\Рефлексия.exe
+D:\Code\GithubDesktop\System_prog\Рефлексия\obj\Debug\Рефлексия.pdb
