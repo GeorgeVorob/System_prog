@@ -1,0 +1,7 @@
+D:\Code\GithubDesktop\System_prog\Factory\bin\Debug\Factory.exe.config
+D:\Code\GithubDesktop\System_prog\Factory\bin\Debug\Factory.exe
+D:\Code\GithubDesktop\System_prog\Factory\bin\Debug\Factory.pdb
+D:\Code\GithubDesktop\System_prog\Factory\obj\Debug\Factory.csprojAssemblyReference.cache
+D:\Code\GithubDesktop\System_prog\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
+D:\Code\GithubDesktop\System_prog\Factory\obj\Debug\Factory.exe
+D:\Code\GithubDesktop\System_prog\Factory\obj\Debug\Factory.pdb
