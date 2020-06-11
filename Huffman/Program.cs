@@ -131,49 +131,39 @@ namespace Huffman
         public BinaryTree(int value, char sym) { root = new BinaryNode(value, sym); }
         public void AddNode(BinaryNode node) // Добавление узла к дереву
         {
-            BinaryNode current = root; //рассматриваемый узел
-
-            if (current == null) root = node; //если корневой узел пуст - создаем его
-            else AddToNode(root,node);
-        }
-        private void AddToNode(BinaryNode node, BinaryNode newnode)//рекурсивное добалвение нового узла, работает не очень корректно
-        {
-            if (newnode.value < node.value)
-            {
-                if (node.left == null)
+            BinaryNode current = root; //текущий равен корневому
+            bool added = false;
+            do
+            { // обход дерева
+                if (current.right == null)
                 {
-                    node.left = newnode;
+                    current.right = node;
+                    added = true;
                 }
                 else
                 {
-                    AddToNode(node.left, newnode);
+                    if (current.left == null)
+                    {
+                        current.left = node;
+                        added = true;
+                    }
+                    else current = current.left;
+                    current = current.right;
                 }
             }
-            else
-            {
-                if (node.right == null)
-                {
-                    node.right = newnode;
-                }
-                else
-                {
-                    AddToNode(node.right, newnode);
-                }
-            }
+            while (!added);
         }
         public void CLR(BinaryNode node, ref Dictionary<char, string> arr, string s)
         { 
             if (node != null)
             {
-                if (node.sybmol == '\n') Console.WriteLine("Найден /n!");
-                if (node.sybmol == '\r') Console.WriteLine("Найден /r!");
                 if (node.sybmol != '\0')
                 {
                     arr[node.sybmol] = s;
                 }
                 CLR(node.left, ref arr, s + "0"); // Обход левого ответвления текущего узла
                 CLR(node.right, ref arr, s + "1"); // Обход правого ответвления текущего узла
-                //благодаря ref может не присваивать результирующее значение CLR, а просо передавать ссылку на символ, кодировку которого строим
+                //благодаря ref можем не присваивать результирующее значение CLR, а просо передавать ссылку на символ, кодировку которого строим
             }
         }
     }
