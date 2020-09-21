@@ -1,7 +1,0 @@
-D:\Code\GithubDesktop\System_prog\Huffman\bin\Debug\Huffman.exe.config
-D:\Code\GithubDesktop\System_prog\Huffman\bin\Debug\Huffman.exe
-D:\Code\GithubDesktop\System_prog\Huffman\bin\Debug\Huffman.pdb
-D:\Code\GithubDesktop\System_prog\Huffman\obj\Debug\Huffman.csprojAssemblyReference.cache
-D:\Code\GithubDesktop\System_prog\Huffman\obj\Debug\Huffman.csproj.CoreCompileInputs.cache
-D:\Code\GithubDesktop\System_prog\Huffman\obj\Debug\Huffman.exe
-D:\Code\GithubDesktop\System_prog\Huffman\obj\Debug\Huffman.pdb
