@@ -5,8 +5,8 @@
 
 int main(int argc, char *argv[])
 {
-        int childExitStatus;
-        switch (fork())
+		int childId;
+        switch (childId = fork())
         {
         case -1:
                 perror("Ошибка создания нового процесса: "); /* произошла ошибка */
@@ -21,8 +21,7 @@ int main(int argc, char *argv[])
         break;
         default:
         printf("Родительский процесс: \n");
-        wait(&childExitStatus);
-        printf("Код завершения потомка: %d \n",childExitStatus);
+        printf("Код завершения потомка: %d \n",WEXITSTATUS(childId));
                 break;
         }
         return 0;
