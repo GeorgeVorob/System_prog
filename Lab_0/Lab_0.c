@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
         }
         break;
         default:
+		wait(&childId);
         printf("Родительский процесс: \n");
         printf("Код завершения потомка: %d \n",WEXITSTATUS(childId));
                 break;
