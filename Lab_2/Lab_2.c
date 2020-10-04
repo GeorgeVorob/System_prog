@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
     int strNumToPrint = 1;
     off_t offsetToPrint;
     ssize_t ret;
-    struct stat filestat; //структура, хранящяя информацию об открытом через десприптор файле
+    struct stat filestat; //структура, хранящая информацию об открытом через десприптор файле
     printf("Путь к файлу указывается как аргумент при запуске \nПопытка открыть файл %s \n", argv[1]);
     int filedesc = open(argv[1], 00);
     if (filedesc < 0)
