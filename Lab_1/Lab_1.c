@@ -18,11 +18,16 @@ void arrpush(int *arr, int index, int value, int *size, int *capacity) //Фун�
     *size = *size + 1;
 }
 
+
 int main(int argc, char *argv[])
 {
     int arrSize = 0;
     int arrCap = 2;
     int *arr = malloc(arrCap * sizeof(int));
+
+    int indexarrxSize = 0;
+    int indexarrCap = 2;
+    int *indexarr = malloc(indexarrCap * sizeof(int));
 
     char ch;
     int strCount = 0;
@@ -42,7 +47,9 @@ int main(int argc, char *argv[])
         strCount++;
         if (ch == '\n')
         {
-            arrpush(arr, enterCount++, strCount, &arrSize, &arrCap);
+            enterCount++;
+            arrpush(indexarr,enterCount,strCount + (indexarr[enterCount-1] ?: 0),&indexarrxSize,&indexarrCap);
+            arrpush(arr, enterCount, strCount, &arrSize, &arrCap);
             printf("Строка %d , символов %d \n", enterCount, strCount);
             strCount = 0;
         }
@@ -52,25 +59,19 @@ int main(int argc, char *argv[])
         perror("Ошибка чтения файла: ");
         return 1;
     }
-    printf("Всего строк: %d\n Введите номер требуемой для вывода строки(0 для выхода):", enterCount);
+    while(strNumToPrint!=0)
+    {
+    printf("\nВсего строк: %d\n Введите номер требуемой для вывода строки(0 для выхода):", enterCount);
     scanf("%d", &strNumToPrint);
 
-    if (strNumToPrint == 0)
-    {
-        printf("Завершение программы \n");
-        return 0;
-    }
-    strNumToPrint--;
+    //strNumToPrint--;
 
-    for (int i = 0; i < strNumToPrint; i++) //Суммирование всех символов до указанной строки для нахождения начала указанной строки
-    {
-        offsetToPrint += arr[i];
-    }
+    offsetToPrint = indexarr[strNumToPrint-1];
     //printf("Offset: %ld \n", offsetToPrint);
 
     lseek(filedesc, offsetToPrint, SEEK_SET); //Сдвиг дескриптора на нужное место
 
-    for (int i = 0; i < arr[strNumToPrint]; i++)
+    for (int i = 0; i < arr[strNumToPrint]-1; i++)
     {
         ret = read(filedesc, &ch, 1);
         if (ret == -1)
@@ -80,6 +81,8 @@ int main(int argc, char *argv[])
         }
         printf("%c", ch);
     }
+    }
+    printf("Завершение программы \n");
     close(filedesc);
     return 0;
 }
